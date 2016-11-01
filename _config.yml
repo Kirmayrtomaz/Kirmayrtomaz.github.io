@@ -1,0 +1,31 @@
+# top level stuff you probably don't need to touch
+highlighter: pygments
+markdown: rdiscount
+rdiscount:
+  extensions: [smart]
+permalink: /:title.html
+paginate: 5
+gems: [jekyll-paginate]
+port: 3000
+safe: true
+
+
+# edit here rmayrtomazto achieve your personal greatness
+url: https://kirmayrtomaz.github.io/
+# baseurl: /sustain/
+title: Kirmayr Tomaz
+author: Kirmayr Tomaz
+description: Meu site e blog pessoal
+avatar: profile.jpg
+email: tomaz.kirmayr@gmail.com
+github: kirmayrtomaz # username
+twitter: kirmayrtomaz
+linkedin: kirmayrtomaz
+stackoverflow: users/3642194/kirmayr-tomaz   #e.g: users/2735833/proton1h1
+#Comment out if you don't want disqus 
+disqus: kirmayrtomaz
+google_analytics: UA-83526983-2
+
+
+# needed for travis-ci build
+exclude: [vendor]
