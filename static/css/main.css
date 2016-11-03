@@ -166,6 +166,13 @@ body {
   text-align: left;
   line-height: 30px;
   font-size: 18px;
+  position:relative;
+}
+
+.blogpost img[alt=image]{
+
+max-width:100%;
+
 }
 
 /* Footer 
